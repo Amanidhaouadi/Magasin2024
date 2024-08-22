@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">    
+    <link rel="stylesheet" href="style.css">
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Décharge - Yazaki</title>
     <style>
        
-        body {
+        body {     /*kif kif */
            font-family: Arial, sans-serif;
            background: #f5f5f5;
            color: #333;;
@@ -16,11 +19,9 @@
            padding: 0;
            display: flex;
            flex-direction: column;
-          
         }
 
-        
-        .container {
+        .container {     /*kif kif */
             width: 90%;
             margin: 20px auto;
             padding: 20px;
@@ -28,7 +29,6 @@
             border-radius: 10px;
             flex: 1; /* Prendre tout l'espace disponible */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour la profondeur */
-
         }
  
         .container-decharge {
@@ -58,7 +58,7 @@
             margin-right: 10px;
             font-size: 12px;
         }
-
+///
         .section {
             display: flex;
             justify-content: space-between;
@@ -166,16 +166,15 @@
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="home.php"><i class="fas fa-home"></i> Home</a>
-
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-box"></i> Products</a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="products.php">Product List</a></li>
-                                <li><a class="dropdown-item" href="scrap.php">Scrap List</a></li>
-                                <li><a class="dropdown-item" href="decharge.php">Discharge Product</a></li>
+                                <li><a class="dropdown-item" href="products.php"><i class="fa-regular fa-file" style="color: #4caf50" ></i> Product List</a></li>
+                                <li><a class="dropdown-item" href="scrap.php"><i class="fa-regular fa-file" style="color: #e41d24" ></i> Scrap List</a></li>
+                                <li><a class="dropdown-item" href="decharge.php"><i class="fa-regular fa-file" style="color: #1f1f1f" ></i> Discharge Product</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="product.php">Products Catalog</a></li>
+                                <li><a class="dropdown-item" href="product.php"><i class="fa-solid fa-file-lines" style="color: #1f1f1f" ></i> Products Catalog</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="about.php"><i class="fas fa-info-circle"></i> About</a></li>

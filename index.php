@@ -49,9 +49,9 @@
         }
 
         .logo {
-            width: 100px;
+            width: 120px;
             height: auto;
-            margin-bottom: 20px;
+            margin: 0 300px 10px 0;
         }
 
         h1 {
@@ -141,6 +141,7 @@
     <div class="container">
         <div class="left">
             <img src="image/logo.png" alt="Logo" class="logo">
+            <img src="image/login.png" alt="Logo" style="width: 120px; margin: 0 0 -20px 0 ">
             <h1>Welcome to Yazaki</h1>
             <form action="login.php" method="post">
                 <label for="username">Username:</label>

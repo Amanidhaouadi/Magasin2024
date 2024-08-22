@@ -26,23 +26,24 @@ form {
     gap: 10px;
 }
 
+/*
 form input, form textarea {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc; /* Bordure grise légère */
-    background: #ffffff; /* Blanc pour les champs de texte */
-}
+ /*   background: #ffffff; /* Blanc pour les champs de texte */
+/*}
 
 form input[type="submit"] {
     background: #4caf50; /* Vert doux pour le bouton de soumission */
-    color: white;
+ /*   color: white;
     cursor: pointer;
     border: none;
 }
 
 form input[type="submit"]:hover {
     background: #45a049; /* Vert un peu plus foncé sur survol */
-}
+/*}  */
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,8 +73,6 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
-
-
 p, ul {
     font-size: 16px;
     line-height: 1.6;
@@ -81,7 +80,7 @@ p, ul {
 
 /* Bouton principal */
 .button {
-    padding: 10px 20px;
+    padding: 5px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -101,7 +100,6 @@ p, ul {
 .button-add {
     background: #4CAF50; /* Bleu doux */
     color: white;
-    margin-bottom: 20px;
 }
 
 .button-add:hover {
@@ -129,10 +127,10 @@ p, ul {
 }
 
 /* Champ de texte pour l'ID */
-input[type='text'], input[type='date'], input[type='password'], input[type='email'] {
+/*input[type='text'], input[type='date'], input[type='password'], input[type='email'] {
     background: #ffffff; /* Blanc pour les champs de texte */
-    border: 1px solid #ccc; /* Bordure grise légère */
-    color: #333;
+/*    border: 1px solid #ccc; /* Bordure grise légère */
+/*    color: #333;
     text-align: left;
     padding: 10px;
     border-radius: 5px;
@@ -141,11 +139,11 @@ input[type='text'], input[type='date'], input[type='password'], input[type='emai
 input[type='text']:focus, input[type='date']:focus, input[type='password']:focus, input[type='email']:focus {
     outline: none;
     border-color: #2196f3; /* Bordure bleue en focus */
-}
+/*}
 
 input::placeholder {
     color: #999; /* Gris clair pour les placeholders */
-}
+/*}  */
 
 .logo {
     height: 50px; /* Taille du logo */
