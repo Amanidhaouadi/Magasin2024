@@ -1,6 +1,6 @@
 # Magasin2024
 
-###### Ce projet a été réalisé dans le cadre de mon stage d'été chez YAZAKI Automotive Products Tunisia (YAPT), une filiale du groupe YAZAKI, leader mondial du câblage automobile. L'objectif principal était de concevoir et développer une application web de gestion pour le magasin IT de l'entreprise, afin de remplacer les fichiers Excel utilisés auparavant.
+##### Ce projet a été réalisé dans le cadre de mon stage d'été chez YAZAKI Automotive Products Tunisia (YAPT), une filiale du groupe YAZAKI, leader mondial du câblage automobile. L'objectif principal était de concevoir et développer une application web de gestion pour le magasin IT de l'entreprise, afin de remplacer les fichiers Excel utilisés auparavant.
 
 ## Objectifs du projet
  - Centraliser la gestion des équipements informatiques (produits, emplacements, statuts).
